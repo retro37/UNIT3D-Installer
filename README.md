@@ -8,11 +8,12 @@ Installer for the [UNIT3D-Community-Edition](https://github.com/HDInnovations/UN
 **Officially Supported OS's**
 - Ubuntu 22.04 LTS (Jammy Jellyfish)
 
-**Unstable WIP**
-- Ubuntu 24.04 LTS (Noble Numbat)
+**Requirements**
+- Meilisearch 1.12+ Follow the first step of this [Guide](https://github.com/retro37/UNIT3D-Community-Edition/blob/testing/docs/meilisearch_setup.md)
+  
 
 
-**To install run the following:** (and follow the instructions. must be a fresh deicated server with nothing on it besides supported OS. Also must have a proper valid domain pointing to your server IP via A RECORD and CNAME for www)
+**To install UNIT3D run the following:** (and follow the instructions. must have a proper valid domain pointing to your server IP via A RECORD and CNAME for www)
 ```
 sudo apt -y install git
 git clone https://github.com/retro37/UNIT3D-Installer.git installer
@@ -27,6 +28,9 @@ sudo ./install.sh
 config/secure-headers.php   <-- HTTP Strict Transport Security must be set to false
 config/secure-headers.php   <-- Content Security Policy must be disabled
 ```
+
+**After Installation**
+- Follow the second step of this [Guide](https://github.com/retro37/UNIT3D-Community-Edition/blob/testing/docs/meilisearch_setup.md)
 
 ### Suggestions and/or Bug Reporting
 We encourage the use of [GitHub Issues](https://github.com/HDInnovations/UNIT3D-INSTALLER/issues/new)!
