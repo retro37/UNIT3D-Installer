@@ -3,16 +3,18 @@
 <p align="center"><b>NOTE: This only works for a fresh server with nothing on it but a new OS install!</b></p>
 
 ## This Repository
+
 Installer for the [UNIT3D-Community-Edition](https://github.com/HDInnovations/UNIT3D).
 
 **Officially Supported OS's**
 - Ubuntu 22.04 LTS (Jammy Jellyfish)
 
-## Requirements
+**Requirements**
 - Meilisearch 1.12+
   Follow the first step of this [Guide](https://github.com/retro37/UNIT3D-Community-Edition/blob/testing/docs/meilisearch_setup.md)
   
-## Guide
+
+## Installation
 
 **To install UNIT3D run the following:** (and follow the instructions. must have a proper valid domain pointing to your server IP via A RECORD and CNAME for www)
 ```
@@ -23,12 +25,15 @@ git switch testing
 sudo ./install.sh
 ```
 
-**NOTE: If you are running UNIT3D on a non HTTPS instance you MUST change the following configs.**
+## After Installation
+
+- Follow the second step of this [Guide](https://github.com/retro37/UNIT3D-Community-Edition/blob/testing/docs/meilisearch_setup.md)
+
+
+## NOTE
+**If you are running UNIT3D on a non HTTPS instance you MUST change the following configs**
 ```
 .env  <-- SESSION_SECURE_COOKIE must be set to false
 config/secure-headers.php   <-- HTTP Strict Transport Security must be set to false
 config/secure-headers.php   <-- Content Security Policy must be disabled
 ```
-
-## After Installation
-- Follow the second step of this [Guide](https://github.com/retro37/UNIT3D-Community-Edition/blob/testing/docs/meilisearch_setup.md)
