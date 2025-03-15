@@ -26,7 +26,7 @@ sudo ./install.sh
 
 ## After Installation
 
-- Follow step 2 and 3.2 of this [Guide](https://github.com/retro37/UNIT3D-Community-Edition/blob/testing/docs/meilisearch_setup.md)
+- Follow step 2 and 3 of this [Guide](https://github.com/retro37/UNIT3D-Community-Edition/blob/testing/docs/meilisearch_setup.md)
 
 
 ## NOTE
