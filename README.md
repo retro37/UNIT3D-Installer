@@ -11,8 +11,7 @@ Installer for the [UNIT3D-Community-Edition](https://github.com/HDInnovations/UN
 
 **Requirements**
 - Meilisearch 1.12+
-  Follow step 1 of this [Guide]([https://github.com/retro37/UNIT3D-Community-Edition/blob/testing/docs/meilisearch_setup.md](https://hdinnovations.github.io/UNIT3D/meilisearch_setup.html))
-  
+  Follow step 1 of this [Guide](https://hdinnovations.github.io/UNIT3D/meilisearch_setup.html#meilisearch-setup-for-unit3d)
 
 ## Installation
 
@@ -26,7 +25,7 @@ sudo ./install.sh
 
 ## After Installation
 
-- Follow step 2 and 3 of this [Guide]([https://github.com/retro37/UNIT3D-Community-Edition/blob/testing/docs/meilisearch_setup.md](https://hdinnovations.github.io/UNIT3D/meilisearch_setup.html))
+- Follow step 2 and 3 of this [Guide](https://hdinnovations.github.io/UNIT3D/meilisearch_setup.html#meilisearch-setup-for-unit3d)
 
 
 ## NOTE
